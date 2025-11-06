@@ -7,28 +7,28 @@ const IllustrationCarousel = () => {
             title: 'Spring Waterfall',
             artist: 'by Jane Doe',
             rating: 5,
-            image: 'A serene waterfall in spring with bears crossing a rope bridge',
+            image: 'images/1.jpg',
             alt: 'Illustration of a waterfall in spring'
-        },
-        {
-            title: 'Winter',
-            artist: 'by John Smith',
-            rating: 4,
-            image: 'A cozy cabin in a snowy winter forest landscape',
-            alt: 'Illustration of a winter scene with a cabin'
         },
         {
             title: 'Autumn Forest Cabin',
             artist: 'by Emily White',
             rating: 5,
-            image: 'A charming cabin in a forest during autumn with golden leaves',
+            image: 'images/3.jpg',
             alt: 'Illustration of a cabin in an autumn forest'
         },
         {
             title: 'Snowy Night',
             artist: 'by Michael Brown',
             rating: 5,
-            image: 'A peaceful village covered in snow during the night',
+            image: 'images/4.jpg',
+            alt: 'Illustration of a snowy village at night'
+        },
+         {
+            title: 'Snowy Night',
+            artist: 'by Michael Brown',
+            rating: 5,
+            image: 'images/5.jpg',
             alt: 'Illustration of a snowy village at night'
         },
     ];
@@ -86,7 +86,7 @@ const IllustrationCarousel = () => {
                                     <img
                                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                                         alt={item.alt}
-                                        src="images/1.jpg" />
+                                        src={item.image} />
                                 </div>
                             </motion.div>
                         ))}
