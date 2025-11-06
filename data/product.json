@@ -1,0 +1,6 @@
+[
+    { "id": 1, "name": "Sarung Sutra Mandar", "price": "Rp950.000", 
+    "image": "https://indonesia.go.id/assets/upload/headline/1590909559_lipa_sabqe_tenun_thumb.jpeg", "desc": "Tenun sutra asli Mandar dengan motif khas.", "seller_wa": "6281234567890" },
+    { "id": 2, "name": "Golla Kambu Mandar", "price": "Rp25.000", "image": "https://indonesia.go.id/assets/upload/headline/531CC2AA-CAD8-4A20-83C2-AF4773852269_thumb.jpeg", "desc": "Makanan ringan tradisional dari beras ketan.", "seller_wa": "6289876543210" },
+    { "id": 3, "name": "Miniatur Sandeq", "price": "Rp350.000", "image": "https://souvenirminiatur.com/wp-content/uploads/2024/08/DETAIL2-MK59-Miniatur-Lopi-Sandeq.jpg", "desc": "Replika perahu Sandeq, cocok untuk suvenir.", "seller_wa": "6281122334455" }
+]

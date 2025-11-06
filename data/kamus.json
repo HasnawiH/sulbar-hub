@@ -1,0 +1,9 @@
+[
+    { "id": 1, "kataMandar": "ASSENG", "artiIndonesia": "Nama", "kategori": "A", "audioUrl": "/assets/audio/asseng.mp3" },
+    { "id": 2, "kataMandar": "BOYANG", "artiIndonesia": "Rumah Adat", "kategori": "B", "audioUrl": "/assets/audio/boyang.mp3" },
+    { "id": 3, "kataMandar": "BUNGA", "artiIndonesia": "Bunga", "kategori": "B", "audioUrl": null },
+     { "id": 7, "kataMandar": "GALLAS", "artiIndonesia": "Gelas", "kategori": "G", "audioUrl": null },
+    { "id": 4, "kataMandar": "GANDANG", "artiIndonesia": "Gendang", "kategori": "G", "audioUrl": null },
+    { "id": 5, "kataMandar": "JEPA", "artiIndonesia": "Makanan Khas", "kategori": "J", "audioUrl": null },
+    { "id": 6, "kataMandar": "MALLAJARRING", "artiIndonesia": "Berlayar", "kategori": "M", "audioUrl": null }
+]

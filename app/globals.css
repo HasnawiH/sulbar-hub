@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  /* --background: #ffffff; */
+  --background: #1B3C53;
   --foreground: #171717;
 }
 
@@ -23,4 +24,31 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.scrollbar-hide {
+    /* Untuk Internet Explorer dan Edge */
+    -ms-overflow-style: none;  
+    /* Untuk Firefox */
+    scrollbar-width: none;  
+}
+
+/* Untuk Chrome, Safari, dan Opera (Webkit-based browsers) */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.blinking-cursor {
+  color: #333; /* Sesuaikan dengan warna teks Anda */
+  animation: 
+    blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
 }
