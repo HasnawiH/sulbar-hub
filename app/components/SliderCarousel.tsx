@@ -34,7 +34,7 @@ const IllustrationCarousel = () => {
     ];
 
     const duplicatedIllustrations = [...illustrations, ...illustrations];
-    const carouselVariants = {
+    const carouselVariants: any = {
         animate: {
             x: [0, -1896], // (280px card + 24px gap) * 6 cards
             transition: {
