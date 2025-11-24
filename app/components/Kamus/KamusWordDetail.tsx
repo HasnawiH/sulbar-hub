@@ -17,7 +17,7 @@ interface WordDetail {
 }
 
 interface KamusWordDetailProps {
-  word: WordDetail;
+  word: any;
 }
 
 const KamusWordDetail: React.FC<KamusWordDetailProps> = ({ word }) => {
@@ -29,7 +29,7 @@ const KamusWordDetail: React.FC<KamusWordDetailProps> = ({ word }) => {
   return (
     <WordDetailCardBackground>
       <motion.div
-        variants={cardContentVariants}
+        // variants={cardContentVariants}
         className="pb-6 border-b border-gray-100">
         <div className="flex items-end justify-between">
           <div>
@@ -50,7 +50,7 @@ const KamusWordDetail: React.FC<KamusWordDetailProps> = ({ word }) => {
       </motion.div>
 
       <motion.div
-        variants={cardContentVariants}
+        // variants={cardContentVariants}
         transition={{ delay: 0.1 }} className="pt-6">
         <h3 className="text-xl font-bold text-[#1A2C42] mb-2">Inti Makna Kata</h3>
         <p className="text-gray-700 leading-relaxed">
@@ -58,7 +58,7 @@ const KamusWordDetail: React.FC<KamusWordDetailProps> = ({ word }) => {
         </p>
       </motion.div>
       <motion.div
-        variants={cardContentVariants}
+        // variants={cardContentVariants}
         transition={{ delay: 0.2 }} className="bg-gray-50 p-5 rounded-lg border-l-4 border-[#FFC107] mt-6">
         <h3 className="text-xl font-bold text-[#1A2C42] mb-2">Tuturan Sehari-hari</h3>
         <p className="text-gray-800 italic font-semibold">{word.example}</p>
@@ -69,7 +69,7 @@ const KamusWordDetail: React.FC<KamusWordDetailProps> = ({ word }) => {
       </motion.div>
 
       <motion.div
-        variants={cardContentVariants}
+        // variants={cardContentVariants}
         transition={{ delay: 0.3 }} className="bg-gray-50 p-5 rounded-lg border-l-4 border-[#5A1F2B] mt-6 flex items-start space-x-4">
         <div>
           <h3 className="text-xl font-bold text-[#1A2C42] mb-2">Kaitan Budaya & Tradisi</h3>
@@ -79,11 +79,11 @@ const KamusWordDetail: React.FC<KamusWordDetailProps> = ({ word }) => {
 
       {word.relatedWords.length > 0 && (
         <motion.div
-          variants={cardContentVariants}
+          // variants={cardContentVariants}
           transition={{ delay: 0.4 }} className="mt-6">
           <h3 className="text-xl font-bold text-[#1A2C42] mb-2">Kata Serumpun</h3>
           <div className="flex flex-wrap gap-2">
-            {word.relatedWords.map((related, index) => (
+            {word.relatedWords.map((related: any, index :number) => (
               <span key={index} className="px-4 py-2 bg-gray-100 rounded-full text-gray-700 text-sm hover:bg-gray-200 cursor-pointer transition-colors">
                 {related}
               </span>

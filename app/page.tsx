@@ -122,7 +122,7 @@ const QuickNav: React.FC = () => {
       {navItems.map((item, index) => (
         <motion.div
           key={index}
-          variants={itemVariants}
+          // variants={itemVariants}
           whileHover={{ scale: 1.05, boxShadow: "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)" }}
           className="flex flex-col items-center p-6 border border-gray-100 rounded-lg group cursor-pointer bg-white transform-gpu perspective-1000"
         >

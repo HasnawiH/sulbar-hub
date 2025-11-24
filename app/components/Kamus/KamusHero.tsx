@@ -36,14 +36,14 @@ const KamusHero: React.FC<KamusHeroProps> = ({ searchTerm, setSearchTerm }) => {
         className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4"
       >
         <motion.h1
-          variants={textVariants}
+          // variants={textVariants}
           className="text-2xl md:text-4xl font-extrabold tracking-wide font-serif"
         >
           KAMUS & ENSIKLOPEDIA MANDAR
         </motion.h1>
         <motion.p
-          variants={textVariants}
-          transition={{ ...textVariants.visible.transition, delay: 0.2 }}
+          // variants={textVariants}
+          // transition={{ ...textVariants.visible.transition, delay: 0.2 }}
           className="mt-3 text-md md:text-2xl italic font-light max-w-3xl font-serif"
         >
           Jelajahi Kekayaan Bahasa dan Kearifan Lokal.
