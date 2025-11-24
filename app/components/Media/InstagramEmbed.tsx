@@ -22,7 +22,6 @@ const InstagramGallery: React.FC = () => {
     useEffect(() => {
         const fetchInstagramData = async () => {
             try {
-                // Memanggil Route Handler yang kita buat
                 const response = await fetch('/api/instagram');
                 
                 if (!response.ok) {
@@ -60,8 +59,7 @@ const InstagramGallery: React.FC = () => {
             </div>
         );
     }
-    
-    // Ambil maksimal 8-12 item untuk tampilan grid
+
     const displayedMedia = media.slice(0, 12); 
 
     return (
@@ -85,7 +83,6 @@ const InstagramGallery: React.FC = () => {
                         target="_blank" 
                         className="relative w-full aspect-square rounded-lg overflow-hidden shadow-md group block"
                     >
-                        {/* Media Content */}
                         <Image
                             src={item.media_url}
                             alt={item.caption || 'Postingan Instagram'}
@@ -94,14 +91,12 @@ const InstagramGallery: React.FC = () => {
                             className="transition duration-300 group-hover:scale-105"
                         />
                         
-                        {/* Video Icon/Overlay */}
                         {item.media_type === 'VIDEO' && (
                             <div className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-30">
                                 <Play className="w-10 h-10 text-white opacity-80" fill="white" />
                             </div>
                         )}
                         
-                        {/* Caption Preview (Desktop) */}
                         <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-3 text-white opacity-0 group-hover:opacity-100 transition-opacity">
                             <p className="text-xs line-clamp-2">{item.caption}</p>
                         </div>

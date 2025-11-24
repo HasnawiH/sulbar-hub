@@ -1,70 +1,37 @@
 'use client';
-
-import React from 'react';
+import type { Metadata } from 'next';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-import { Search, Menu } from 'lucide-react';
+import { motion } from 'framer-motion';
 
-const navItems = [
-    { name: 'Beranda', href: '/' },
-    { name: 'Warisan', href: '/budaya' },
-    { name: 'Agenda', href: '/event' },
-    { name: 'Lapak', href: '/marketplace' }, 
-    { name: 'Galeri', href: '/reels' },
-    { name: 'Narasi', href: '/narasi' },
-    { name: 'Kamus', href: '/kamus' },  
-];
-
-const DesktopNav: React.FC = () => {
-    const pathname = usePathname();
-
-    return (
-        <header className="sticky top-0 z-50 bg-[#1B3C53] shadow-md">
-            <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-                
-                {/* 1. Logo */}
-                <Link href="/" className="flex items-center space-x-2">
-                    <img src="/logo.png" alt="Sulbar Culture Logo" className="w-8 h-8" /> 
-                    <span className="font-extrabold text-xl text-white uppercase">
-                        Sulbar Culture
-                    </span>
-                </Link>
-
-                {/* 2. Navigasi Tengah */}
-                <nav className="hidden md:flex space-x-8">
-                    {navItems.map((item) => {
-                        const isActive = pathname === item.href || (item.href !== '/' && pathname.startsWith(item.href));
-                        return (
-                            <Link 
-                                key={item.name} 
-                                href={item.href}
-                                className={`text-md font-semibold relative py-2 transition-colors duration-200 ${
-                                    isActive 
-                                        ? 'text-orange-600' 
-                                        : 'text-white hover:text-orange-500'
-                                }`}
-                            >
-                                {item.name}
-                                {isActive && (
-                                    <span className="absolute bottom-0 left-0 w-full h-0.5 bg-orange-600 rounded-full"></span>
-                                )}
-                            </Link>
-                        );
-                    })}
-                </nav>
-
-                {/* 3. Aksi Kanan (Search, Notifikasi, Menu) */}
-                <div className="flex space-x-4 items-center">
-                    <button className="text-white hover:text-orange-500 p-1" aria-label="Cari">
-                        <Search className="w-5 h-5" />
-                    </button>
-                    <button className="text-white hover:text-orange-500 p-1 md:hidden" aria-label="Menu Mobile">
-                        <Menu className="w-6 h-6" />
-                    </button>
-                </div>
-            </div>
-        </header>
-    );
+export const metadata: Metadata = {
+  title: 'Sulbar Culture',
+  description: 'Menjelajahi Jiwa Mandar, Membangun Masa Depan.',
 };
 
-export default DesktopNav;
+const Header = () => {
+  return (
+    <motion.header
+      initial={{ y: -100, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.5 }}
+      className="absolute top-0 left-0 right-0 z-50 bg-[#1B3C53] text-white py-4 px-6 shadow-lg flex justify-center items-center" //[#1B3C53]
+    >
+      <Link href="/" className="flex items-center space-x-2">
+        <img src="/logo.png" alt="Sulbar Culture Logo" className="w-8 h-8" /> 
+        <span className=" font-bold ">SULBAR CULTURE</span>
+      </Link>
+      
+      <div className="flex items-center space-x-6">
+
+        {/* <button className="p-2 rounded-full hover:bg-white/10 transition-colors">
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7" /></svg>
+        </button> */}
+      </div>
+    </motion.header>
+  );
+};
+
+export default Header;
+
+
+

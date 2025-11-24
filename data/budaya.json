@@ -1,5 +1,120 @@
-[
-    { "id": 1, "title": "Perahu Sandeq", "desc": "Perahu bercadik tercepat, warisan budaya maritim Mandar.", "image": "https://awsimages.detik.net.id/community/media/visual/2022/08/31/perahu-sandeq-1_169.jpeg?w=700&q=90" },
-    { "id": 2, "title": "Sayyang Pattu'du'", "desc": "Kuda menari dalam upacara Khatam Al-Qur'an.", "image": "https://travellingindonesia.com/wp-content/uploads/2022/08/Tadisi-Sayyang-Pattudu-Dok.-Istimewa-1024x682.jpg" },
-    { "id": 3, "title": "Kalindaqdaq", "desc": "Sastra lisan berupa puisi tradisional khas Mandar.", "image": "https://penerbitombak.com/wp-content/uploads/2017/09/puisi-mandar-kalindaqdaq.jpg" }
+[{
+    "id": 2,
+    "title": "Tenun Khas Mandar: Pola dan Makna",
+    "description": "Mempelajari berbagai jenis tenun yang kaya warna, dari Sekomandi hingga Sureq. Setiap motif memiliki makna filosofis mendalam.",
+    "imageUrl": "https://www.bahankain.com/storage/photos/shares/Artikel/Isi%20artikel/MEI%202023/tenun-sekomandi-mamuju-.webp",
+    "type": "Pengetahuan Tradisional",
+    "slug": "karya-tenun-mandar",
+    "fullDescription": [
+      "Lahir di pesisir Mandar, Ilo-Ilo Sanusi telah menghabiskan lebih dari enam dekade hidupnya untuk mempelajari, membuat, dan mengajarkan seni pembuatan perahu Sandeq. Ia dikenal sebagai salah satu maestro terakhir yang menguasai teknik tradisional tanpa menggunakan cetakan modern, mengandalkan insting dan pengalaman turun-temurun.",
+      "Filosofi di balik setiap gurat kayunya mencerminkan hubungan mendalam antara masyarakat Mandar dengan laut. Perahu Sandeq bukan hanya alat transportasi, melainkan juga simbol kegagahan, keberanian, dan identitas maritim suku Mandar. Melalui tangan dinginnya, ratusan perahu Sandeq telah lahir, mengarungi lautan, dan membawa nama Mandar ke seluruh penjuru dunia.",
+      "Dedikasinya tidak berhenti pada pembuatan. Ilo-Ilo Sanusi juga aktif dalam berbagai lokakarya dan festival budaya untuk berbagi pengetahuannya kepada generasi muda. Ia percaya bahwa melestarikan Sandeq berarti melestarikan jiwa dan semangat Mandar itu sendiri."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Sayyang Pattudu: Kuda Menari",
+    "description": "Tradisi unik arak-arakan wisudawan/wisudawati dengan menunggang kuda yang menari. Tradisi ini dilakukan di Polewali Mandar.",
+    "imageUrl": "images/SAEYYANGPATTUQDUQ.jpg",
+    "type": "Seni",
+    "slug": "tradisi-sayyang-pattudu",
+    "fullDescription": [
+      "Lahir di pesisir Mandar, Ilo-Ilo Sanusi telah menghabiskan lebih dari enam dekade hidupnya untuk mempelajari, membuat, dan mengajarkan seni pembuatan perahu Sandeq. Ia dikenal sebagai salah satu maestro terakhir yang menguasai teknik tradisional tanpa menggunakan cetakan modern, mengandalkan insting dan pengalaman turun-temurun.",
+      "Filosofi di balik setiap gurat kayunya mencerminkan hubungan mendalam antara masyarakat Mandar dengan laut. Perahu Sandeq bukan hanya alat transportasi, melainkan juga simbol kegagahan, keberanian, dan identitas maritim suku Mandar. Melalui tangan dinginnya, ratusan perahu Sandeq telah lahir, mengarungi lautan, dan membawa nama Mandar ke seluruh penjuru dunia.",
+      "Dedikasinya tidak berhenti pada pembuatan. Ilo-Ilo Sanusi juga aktif dalam berbagai lokakarya dan festival budaya untuk berbagi pengetahuannya kepada generasi muda. Ia percaya bahwa melestarikan Sandeq berarti melestarikan jiwa dan semangat Mandar itu sendiri."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Sandeq: Perahu Tercepat Warisan Suku Mandar di Nusantara",
+    "description": "Perahu tradisional yang dikenal karena kecepatannya. Simbol kemaritiman dan kegigihan suku Mandar.",
+    "imageUrl": "images/SANDEQ.jpg",
+    "type": "Teknologi Tradisional",
+    "slug": "pesona-perahu-sandeq",
+    "fullDescription": [
+      "Lahir di pesisir Mandar, Ilo-Ilo Sanusi telah menghabiskan lebih dari enam dekade hidupnya untuk mempelajari, membuat, dan mengajarkan seni pembuatan perahu Sandeq. Ia dikenal sebagai salah satu maestro terakhir yang menguasai teknik tradisional tanpa menggunakan cetakan modern, mengandalkan insting dan pengalaman turun-temurun.",
+      "Filosofi di balik setiap gurat kayunya mencerminkan hubungan mendalam antara masyarakat Mandar dengan laut. Perahu Sandeq bukan hanya alat transportasi, melainkan juga simbol kegagahan, keberanian, dan identitas maritim suku Mandar. Melalui tangan dinginnya, ratusan perahu Sandeq telah lahir, mengarungi lautan, dan membawa nama Mandar ke seluruh penjuru dunia.",
+      "Dedikasinya tidak berhenti pada pembuatan. Ilo-Ilo Sanusi juga aktif dalam berbagai lokakarya dan festival budaya untuk berbagi pengetahuannya kepada generasi muda. Ia percaya bahwa melestarikan Sandeq berarti melestarikan jiwa dan semangat Mandar itu sendiri."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Legenda To Manurung",
+    "description": "Cerita rakyat tentang asal mula kerajaan-kerajaan di Mandar dan tokoh-tokoh mitos yang dipercaya turun dari langit.",
+    "imageUrl": "https://i.ytimg.com/vi/qO8PUYQXkDU/maxresdefault.jpg",
+    "type": "Manuskrip",
+    "slug": "cerita-to-manurung",
+    "fullDescription": [
+      "Lahir di pesisir Mandar, Ilo-Ilo Sanusi telah menghabiskan lebih dari enam dekade hidupnya untuk mempelajari, membuat, dan mengajarkan seni pembuatan perahu Sandeq. Ia dikenal sebagai salah satu maestro terakhir yang menguasai teknik tradisional tanpa menggunakan cetakan modern, mengandalkan insting dan pengalaman turun-temurun.",
+      "Filosofi di balik setiap gurat kayunya mencerminkan hubungan mendalam antara masyarakat Mandar dengan laut. Perahu Sandeq bukan hanya alat transportasi, melainkan juga simbol kegagahan, keberanian, dan identitas maritim suku Mandar. Melalui tangan dinginnya, ratusan perahu Sandeq telah lahir, mengarungi lautan, dan membawa nama Mandar ke seluruh penjuru dunia.",
+      "Dedikasinya tidak berhenti pada pembuatan. Ilo-Ilo Sanusi juga aktif dalam berbagai lokakarya dan festival budaya untuk berbagi pengetahuannya kepada generasi muda. Ia percaya bahwa melestarikan Sandeq berarti melestarikan jiwa dan semangat Mandar itu sendiri."
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Kumpulan Kalindaqdaq Terbaik",
+    "description": "Contoh puisi tradisional Mandar, Kalindaqdaq, yang berisi nasihat, cinta, dan sindiran sosial.",
+    "imageUrl": "https://penerbitombak.com/wp-content/uploads/2017/09/puisi-mandar-kalindaqdaq.jpg",
+    "type": "Manuskrip",
+    "slug": "kumpulan-kalindaqdaq",
+    "fullDescription": [
+      "Lahir di pesisir Mandar, Ilo-Ilo Sanusi telah menghabiskan lebih dari enam dekade hidupnya untuk mempelajari, membuat, dan mengajarkan seni pembuatan perahu Sandeq. Ia dikenal sebagai salah satu maestro terakhir yang menguasai teknik tradisional tanpa menggunakan cetakan modern, mengandalkan insting dan pengalaman turun-temurun.",
+      "Filosofi di balik setiap gurat kayunya mencerminkan hubungan mendalam antara masyarakat Mandar dengan laut. Perahu Sandeq bukan hanya alat transportasi, melainkan juga simbol kegagahan, keberanian, dan identitas maritim suku Mandar. Melalui tangan dinginnya, ratusan perahu Sandeq telah lahir, mengarungi lautan, dan membawa nama Mandar ke seluruh penjuru dunia.",
+      "Dedikasinya tidak berhenti pada pembuatan. Ilo-Ilo Sanusi juga aktif dalam berbagai lokakarya dan festival budaya untuk berbagi pengetahuannya kepada generasi muda. Ia percaya bahwa melestarikan Sandeq berarti melestarikan jiwa dan semangat Mandar itu sendiri."
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Rumah Adat Boyang: Arsitektur dan Filosofi",
+    "description": "Mempelajari struktur dan makna dibalik rumah adat tradisional Suku Mandar.",
+    "imageUrl": "https://media.suara.com/pictures/970x544/2024/06/16/72606-boyang-kayyang-buttu-ciping-instagramaturi-xoxo.jpg",
+    "type": "Pengetahuan Tradisional",
+    "slug": "pesona-rumah-boyang",
+    "fullDescription": [
+      "Lahir di pesisir Mandar, Ilo-Ilo Sanusi telah menghabiskan lebih dari enam dekade hidupnya untuk mempelajari, membuat, dan mengajarkan seni pembuatan perahu Sandeq. Ia dikenal sebagai salah satu maestro terakhir yang menguasai teknik tradisional tanpa menggunakan cetakan modern, mengandalkan insting dan pengalaman turun-temurun.",
+      "Filosofi di balik setiap gurat kayunya mencerminkan hubungan mendalam antara masyarakat Mandar dengan laut. Perahu Sandeq bukan hanya alat transportasi, melainkan juga simbol kegagahan, keberanian, dan identitas maritim suku Mandar. Melalui tangan dinginnya, ratusan perahu Sandeq telah lahir, mengarungi lautan, dan membawa nama Mandar ke seluruh penjuru dunia.",
+      "Dedikasinya tidak berhenti pada pembuatan. Ilo-Ilo Sanusi juga aktif dalam berbagai lokakarya dan festival budaya untuk berbagi pengetahuannya kepada generasi muda. Ia percaya bahwa melestarikan Sandeq berarti melestarikan jiwa dan semangat Mandar itu sendiri."
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Mangallung: Ritus Persemayaman Jenazah Mamasa",
+    "description": "Manggallung adalah Ritus Persemayaman Jenazah yang khas dilakukan oleh suku Mamasa",
+    "imageUrl": "images/MANGALLUNG.jpg",
+    "type": "Adat & Tradisi",
+    "slug": "pesona-rumah-boyang",
+    "fullDescription": [
+      "Lahir di pesisir Mandar, Ilo-Ilo Sanusi telah menghabiskan lebih dari enam dekade hidupnya untuk mempelajari, membuat, dan mengajarkan seni pembuatan perahu Sandeq. Ia dikenal sebagai salah satu maestro terakhir yang menguasai teknik tradisional tanpa menggunakan cetakan modern, mengandalkan insting dan pengalaman turun-temurun.",
+      "Filosofi di balik setiap gurat kayunya mencerminkan hubungan mendalam antara masyarakat Mandar dengan laut. Perahu Sandeq bukan hanya alat transportasi, melainkan juga simbol kegagahan, keberanian, dan identitas maritim suku Mandar. Melalui tangan dinginnya, ratusan perahu Sandeq telah lahir, mengarungi lautan, dan membawa nama Mandar ke seluruh penjuru dunia.",
+      "Dedikasinya tidak berhenti pada pembuatan. Ilo-Ilo Sanusi juga aktif dalam berbagai lokakarya dan festival budaya untuk berbagi pengetahuannya kepada generasi muda. Ia percaya bahwa melestarikan Sandeq berarti melestarikan jiwa dan semangat Mandar itu sendiri."
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Tari Sayo Suku Kalumpang",
+    "description": "Tari Sayo adalah tarian tradisional suku Kalumpang di Mamuju, Sulawesi Barat, yang ditampilkan sebagai tarian penyambutan pada berbagai acara adat. Tarian ini melambangkan kegembiraan, sukacita, serta penghormatan kepada leluhur.",
+    "imageUrl": "images/SAYO.jpg",
+    "type": "Seni",
+    "slug": "tradisi-sayo-suku-kalumpang",
+    "fullDescription": [
+      "Lahir di pesisir Mandar, Ilo-Ilo Sanusi telah menghabiskan lebih dari enam dekade hidupnya untuk mempelajari, membuat, dan mengajarkan seni pembuatan perahu Sandeq. Ia dikenal sebagai salah satu maestro terakhir yang menguasai teknik tradisional tanpa menggunakan cetakan modern, mengandalkan insting dan pengalaman turun-temurun.",
+      "Filosofi di balik setiap gurat kayunya mencerminkan hubungan mendalam antara masyarakat Mandar dengan laut. Perahu Sandeq bukan hanya alat transportasi, melainkan juga simbol kegagahan, keberanian, dan identitas maritim suku Mandar. Melalui tangan dinginnya, ratusan perahu Sandeq telah lahir, mengarungi lautan, dan membawa nama Mandar ke seluruh penjuru dunia.",
+      "Dedikasinya tidak berhenti pada pembuatan. Ilo-Ilo Sanusi juga aktif dalam berbagai lokakarya dan festival budaya untuk berbagi pengetahuannya kepada generasi muda. Ia percaya bahwa melestarikan Sandeq berarti melestarikan jiwa dan semangat Mandar itu sendiri."
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Naskah Kuno Mandar",
+    "description": "Manuskrip Mandar adalah naskah kuno tulisan tangan yang memuat adat, sejarah, dan pengetahuan masyarakat Mandar. Dokumen ini menjadi warisan penting yang mencerminkan kekayaan budaya dan ilmu pada masa lalu.",
+    "imageUrl": "images/MANUSKRIP.jpg",
+    "type": "Naskah Pusaka",
+    "slug": "naskah-kuno-mandar",
+    "fullDescription": [
+      "Lahir di pesisir Mandar, Ilo-Ilo Sanusi telah menghabiskan lebih dari enam dekade hidupnya untuk mempelajari, membuat, dan mengajarkan seni pembuatan perahu Sandeq. Ia dikenal sebagai salah satu maestro terakhir yang menguasai teknik tradisional tanpa menggunakan cetakan modern, mengandalkan insting dan pengalaman turun-temurun.",
+      "Filosofi di balik setiap gurat kayunya mencerminkan hubungan mendalam antara masyarakat Mandar dengan laut. Perahu Sandeq bukan hanya alat transportasi, melainkan juga simbol kegagahan, keberanian, dan identitas maritim suku Mandar. Melalui tangan dinginnya, ratusan perahu Sandeq telah lahir, mengarungi lautan, dan membawa nama Mandar ke seluruh penjuru dunia.",
+      "Dedikasinya tidak berhenti pada pembuatan. Ilo-Ilo Sanusi juga aktif dalam berbagai lokakarya dan festival budaya untuk berbagi pengetahuannya kepada generasi muda. Ia percaya bahwa melestarikan Sandeq berarti melestarikan jiwa dan semangat Mandar itu sendiri."
+    ]
+  }
 ]
+
+

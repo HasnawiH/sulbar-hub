@@ -1,14 +1,12 @@
-// /components/Footer.tsx
 import React from 'react';
 import Link from 'next/link';
 
-// Data untuk kolom-kolom Footer
 const footerLinks = [
     {
         title: 'Sulbar Culture',
         links: [
-            { name: 'Tentang Kami', href: '/tentang' },
-            { name: 'Hubungi Kami', href: '/kontak' },
+            { name: 'Tentang Kami', href: '/tentang-kami' },
+            // { name: 'Hubungi Kami', href: '/kontak' },
         ],
         headerColor: 'border-gray-500',
     },
@@ -34,45 +32,45 @@ const footerLinks = [
         headerColor: 'border-blue-500',
     },
     {
-        title: 'Kunjungi Kami',
+        title: 'Kamus Bahasa Mandar',
         links: [
-            { name: 'Galeri Sulbar Culture', href: '/galeri' },
-            { name: 'Destinasi Unggulan', href: '/taman' },
+            { name: 'Kamus & Ensiklopedia Bahasa Mandar', href: '/kamus' },
         ],
         headerColor: 'border-orange-500',
     },
 ];
 
-// Data untuk baris kedua (jika ada, atau bisa digabung)
 const footerLinksRow2 = [
     {
         title: 'Lapak',
         links: [
-            { name: 'Lapak UMKM Mandar', href: '/marketplace' },
+            { name: 'Lapak Barang', href: '/marketplace' },
+            { name: 'Lapak Jasa', href: '/marketplace' },
         ],
         headerColor: 'border-green-500',
     },
     {
-        title: 'Maestro Mandar',
+        title: 'Tokoh Maestro',
         links: [
             { name: 'Tokoh Inspiratif', href: '/tokoh/inspiratif' },
+            { name: 'Tokoh Seni', href: '/tokoh/seni' },
         ],
         headerColor: 'border-purple-500',
     },
     {
         title: 'Agenda Budaya',
         links: [
-            { name: 'Jadwal Kegiatan', href: '/agenda/jadwal' },
-            { name: 'Ruang Kreatif', href: '/kegiatan/ruang-kreatif' },
+            { name: 'Semua Agenda', href: '/event' },
+            { name: 'Agenda Mendatang', href: '/event' },
+            { name: 'Agenda Berlangsung', href: '/event' },
         ],
         headerColor: 'border-red-500',
     },
     {
-        title: 'Narasi Mandar',
+        title: 'Narasi Budaya',
         links: [
-            { name: 'Mandar Bercerita', href: '/video/cerita' },
-            { name: 'Jurnal Sulbar', href: '/video/jurnal' },
-            { name: 'Pesona Mandar', href: '/video/paras' },
+            { name: 'Cagar', href: '/narasi' },
+            { name: 'Budaya', href: '/narasi' },
         ],
         headerColor: 'border-yellow-500',
     },
@@ -83,24 +81,19 @@ const Footer: React.FC = () => {
     return (
         <footer className="bg-[#1B3C53] text-gray-300 pt-12 md:pt-16">
             <div className="max-w-7xl mx-auto px-6">
-                {/* Bagian Atas Footer (Logo + Link Kolom 1) */}
-                <div className="grid grid-cols-1 md:grid-cols-5 lg:grid-cols-5 gap-8 border-b border-gray-700 pb-10 mb-10">
 
-                    {/* Kolom Logo */}
+                <div className="grid grid-cols-1 md:grid-cols-5 lg:grid-cols-5 gap-8  pb-10 mb-10">
                     <div className="md:col-span-1 lg:col-span-1">
                         <Link href="/" className="inline-block">
-                            {/* <img src="/logo.png" alt="Sulbar Culture Logo" className="h-10 mb-4" />  */}
-                            {/* Jika logo adalah teks: */}
                             <span className="font-extrabold text-2xl text-orange-400 uppercase tracking-wider block">
                                 SULBAR <br /> CULTURE
                             </span>
                         </Link>
                     </div>
 
-                    {/* Kolom Link Pertama (Indonesia Kaya / Sulbar Culture) */}
                     {footerLinks.map((col, colIndex) => (
                         <div key={colIndex} className="md:col-span-1">
-                            <h4 className={`text-white text-lg font-semibold mb-4 pb-2 border-b-2 ${col.headerColor}`}>
+                            <h4 className={`text-white text-lg mb-4 pb-2 border-b-2 ${col.headerColor}`}>
                                 {col.title}
                             </h4>
                             <ul className="space-y-2">
@@ -116,11 +109,10 @@ const Footer: React.FC = () => {
                     ))}
                 </div>
 
-                {/* Bagian Bawah Footer (Link Kolom 2) */}
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     {footerLinksRow2.map((col, colIndex) => (
                         <div key={colIndex} className="md:col-span-1">
-                            <h4 className={`text-white text-lg font-semibold mb-4 pb-2 border-b-2 ${col.headerColor}`}>
+                            <h4 className={`text-white text-lg mb-4 pb-2 border-b-2 ${col.headerColor}`}>
                                 {col.title}
                             </h4>
                             <ul className="space-y-2">
@@ -136,9 +128,8 @@ const Footer: React.FC = () => {
                     ))}
                 </div>
 
-                {/* Copyright (Opsional) */}
                 <div className="mt-12 py-8 border-t border-gray-700 text-center text-gray-500 text-sm">
-                    &copy; {new Date().getFullYear()} Sulbar Culture. Dibuat dengan ❤️ untuk masa depan yang lebih berbudaya. Karya Anak Mandar.
+                    &copy; {new Date().getFullYear()} Sulbar Culture. Karya Anak Mandar.
                 </div>
             </div>
         </footer>

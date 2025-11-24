@@ -13,7 +13,6 @@ export default function ReelsPage() {
                 </h1>
                 <InstagramGallery />
             </main>
-
             <Footer />
         </div>
     );

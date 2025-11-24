@@ -1,15 +1,9 @@
-// /components/Card/MarketItemCard.tsx
 'use client';
-
 import React from 'react';
-import { Star, ShoppingCart } from 'lucide-react';
-
+import { ShoppingCart } from 'lucide-react';
 interface MarketItemCardProps {
     item: Product;
 }
-
-// --- DATA SIMULASI MARKETPLACE ---
-
 interface Product {
     id: number;
     title: string;
@@ -17,19 +11,17 @@ interface Product {
     desc: string;
     category: 'Kain Tenun & Pakaian' | 'Kuliner & Oleh-oleh' | 'Perhiasan Tradisional' | 'Kerajinan & Aksesoris';
     imageUrl: string;
-    price: number; // Harga dalam Rupiah
-    rating: number; // Rating 0.0 - 5.0
-    sellerWA: string; // Nomor WhatsApp penjual (e.g., "6281234567890")
+    price: number; 
+    rating: number; 
+    sellerWA: string; 
 }
 
-// Fungsi helper untuk formatting harga
 const formatRupiah = (price: number) => {
     return new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR', minimumFractionDigits: 0 }).format(price);
 };
 
 const MarketItemCard: React.FC<MarketItemCardProps> = ({ item }) => {
-    
-    // Handler untuk redirect ke WhatsApp
+
     const handleOrder = () => {
         const message = `Halo, saya tertarik dengan produk *${item.title}* yang Anda jual di Sulbar Culture App. Apakah produk ini masih tersedia?`;
         const url = `https://wa.me/${item.sellerWA}?text=${encodeURIComponent(message)}`;
@@ -37,19 +29,15 @@ const MarketItemCard: React.FC<MarketItemCardProps> = ({ item }) => {
     };
 
     return (
-        <div className="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:scale-[1.02]">
-            {/* 1. Gambar Produk */}
+        <div className="bg-white cursor-pointer overflow-hidden transition-all duration-300 hover:shadow-xl hover:scale-[1.02]">
             <div className="relative w-full h-36">
                 <img
                     src={item.imageUrl}
                     alt={item.title}
-                    // layout="fill"
-                    // objectFit="cover"
                     className="w-full h-full object-cover"
                 />
             </div>
-            
-            {/* 2. Detail & Aksi */}
+
             <div className="p-3">
                 <h3 className="text-sm font-semibold text-gray-800 line-clamp-2 min-h-[2rem]">
                     {item.title}
@@ -57,14 +45,12 @@ const MarketItemCard: React.FC<MarketItemCardProps> = ({ item }) => {
 
                 <p className="text-xs text-gray-500 mb-4 line-clamp-3">{item.desc}</p>
                 
-                {/* Harga dan Rating */}
                 {item?.type !== "jasa" &&<div className="flex items-center justify-between mt-1">
                     <p className="text-lg font-bold">
                         {formatRupiah(item.price)}
                     </p>
                 </div>}
 
-                {/* Tombol Aksi - WhatsApp Order */}
                 <button
                     onClick={handleOrder}
                     className="mt-3 w-full flex items-center justify-center space-x-2 bg-[#1D546C] text-white py-2 rounded-lg font-medium text-sm transition-colors duration-200 hover:bg-[#1A3D64] shadow-md hover:shadow-lg"

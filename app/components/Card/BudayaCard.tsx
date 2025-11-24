@@ -9,13 +9,12 @@ interface BudayaItemProps {
     title: string;
     subtitle: string;
     imageUrl: string;
-    href: string; // Link ke halaman detail
-    isBigCard?: boolean; // Untuk Kartu Pilihan yang lebih besar
+    href: string; 
+    isBigCard?: boolean; 
 }
 
 const BudayaCard: React.FC<BudayaItemProps> = ({ title, subtitle, imageUrl, href, isBigCard = false }) => {
-    
-    // Ukuran yang berbeda berdasarkan props isBigCard
+
     const wrapperClass = isBigCard ? 'w-full h-40' : 'w-full h-32';
     const textClass = isBigCard ? 'text-lg font-bold' : 'text-sm font-semibold';
 
@@ -25,8 +24,6 @@ const BudayaCard: React.FC<BudayaItemProps> = ({ title, subtitle, imageUrl, href
                 <img
                     src={imageUrl}
                     alt={title}
-                    // layout="fill"
-                    // objectFit="cover"
                     className="transition duration-300 group-hover:scale-105 w-full h-full object-cover"
                 />
             </div>

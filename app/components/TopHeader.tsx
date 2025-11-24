@@ -53,7 +53,6 @@ const TopHeader: React.FC<TopHeaderProps> = ({
     return (
         <header style={{backgroundImage: 'url("Logo1.jpg")'}} className="sticky top-0 z-20 border-b border-gray-100 shadow-sm">
             <div className="flex items-center  justify-between h-16 max-w-lg mx-auto px-4"> 
-                {/* 1. Tombol Kembali/Back Button */}
                 <div className="w-8"> 
                     {backHref !== null && (
                         <button 
@@ -66,7 +65,6 @@ const TopHeader: React.FC<TopHeaderProps> = ({
                     )}
                 </div>
 
-                {/* 2. Judul/Logo */}
                 <div className="flex-1 text-center">
                     {useLogo ? logoComponent : (
                         <h1 className="text-lg font-bold text-white truncate" title={title}>
@@ -75,7 +73,6 @@ const TopHeader: React.FC<TopHeaderProps> = ({
                     )}
                 </div>
 
-                {/* 3. Aksi Kanan (Search, Notification, Settings) */}
                 <div className="flex space-x-2 w-8 justify-end"> 
                     {showSearch && (
                         <button className="text-gray-700 p-1 hover:bg-gray-100 rounded-full transition-colors" aria-label="Cari">
@@ -85,7 +82,6 @@ const TopHeader: React.FC<TopHeaderProps> = ({
                     {showNotifications && (
                         <button className="text-white p-1 hover:bg-gray-100 rounded-full transition-colors relative" aria-label="Notifikasi">
                             <Bell className="w-6 h-6" />
-                            {/* Dot Notifikasi (Simulasi) */}
                             <span className="absolute top-0 right-0 block h-2 w-2 rounded-full ring-2 ring-white bg-red-500"></span>
                         </button>
                     )}

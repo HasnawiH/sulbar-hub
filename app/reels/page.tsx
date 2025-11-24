@@ -1,6 +1,4 @@
-// /app/reels/page.tsx
 'use client';
-
 import React, { useEffect, useState } from 'react';
 // import { TopHeader } from '@/components/TopHeader'; // Pastikan path ini benar
 import YouTubeEmbedCard from '../components/Media/YouTubeEmbed';
@@ -20,7 +18,6 @@ export default function ReelsPage() {
     useEffect(() => {
         async function fetchReels() {
             try {
-                // Panggil API Route yang sudah memuat logika filter otomatis
                 const response = await fetch('/api/reels');
 
                 if (!response.ok) {
@@ -45,7 +42,6 @@ export default function ReelsPage() {
             <DesktopNav/>
             <div className="min-h-screen pt-16 pb-20 bg-gray-50">
                 {/* <TopHeader title="Galeri Reels Mandar" backHref="/" showSettings={false} showNotifications={true} /> */}
-
                 <main className="container mx-auto px-4 py-4">
 
                     <div className="flex items-center text-xl font-extrabold text-gray-900 mb-2">
@@ -65,7 +61,6 @@ export default function ReelsPage() {
                         <div className="text-center p-8 text-red-600 bg-red-100 rounded-lg">Error: {error}</div>
                     )}
 
-                    {/* Tata Letak GRID (2 Kolom) */}
                     {!isLoading && !error && reels.length > 0 && (
                         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                             {reels.map((reel) => (
@@ -85,7 +80,6 @@ export default function ReelsPage() {
                     <p className="text-center text-xs text-gray-400 mt-8">
                         *Filter otomatis berdasarkan durasi video (maksimal 60 detik).
                     </p>
-
                 </main>
             </div>
         </>
